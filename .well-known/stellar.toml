@@ -1,5 +1,6 @@
 
-tomlNETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
+
+NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
 
 [[CURRENCIES]]
 code="NATIVETREE"
@@ -9,3 +10,4 @@ desc="El Primer Banco de Oro Verde de la Patagonia"
 image="https://vodudahuelodge-lang.github.io/NativeTree/logo.jpeg"
 is_asset_anchored=false
 display_decimals=7
+⚠️ Asegúrate de que el traductor del naveg
