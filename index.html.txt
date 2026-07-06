@@ -21,3 +21,4 @@
     <p>El sitio web se ha conectado exitosamente a tu dominio.</p>
 </body>
 </html>
+<body class="lang-es">
