@@ -1,0 +1,38 @@
+# Stellar SEP-1 Official Registry for NativeTree Patagonia
+# Host at: https://www.preservenativetree.com/.well-known/stellar.toml
+
+VERSION = "2.0.0"
+
+NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
+
+ACCOUNTS = [
+  "GAD5JHWTKUSOZCKFU7GC7OOTE4EIRDD43JBOEGI57JW6HMPQYWDZDSA2",
+  "GBYB2EI35UYURWZDK6UGYR4SVUVN6T5DHDP3JHDQBKPKWWIARTIN3Z26"
+]
+
+[DOCUMENTATION]
+ORG_NAME = "NativeTree"
+ORG_DBA = "NativeTree — Centro Agroecológico Vodudahue"
+ORG_URL = "https://www.preservenativetree.com"
+ORG_LOGO = "https://www.preservenativetree.com/images/logo.jpg"
+ORG_DESCRIPTION = "Conservación viva de árboles nativos milenarios (Alerces de +2.000 años, Cipreses de las Guaitecas, Coihues y Ulmos) en 404 hectáreas del Valle de Vodudahue, Patagonia Chilena. Biomasa medida por NASA-GEDI en 96 toneladas por hectárea."
+ORG_PHYSICAL_ADDRESS = "Valle de Vodudahue, Patagonia Norte, Región de Los Lagos, Chile"
+ORG_PHONE_NUMBER = "+56974528105"
+ORG_OFFICIAL_EMAIL = "patagonia@preservenativetree.com"
+
+[[PRINCIPALS]]
+name = "Oscar Barril Orellana"
+email = "patagonia@preservenativetree.com"
+
+[[CURRENCIES]]
+code = "NativeTree"
+issuer = "GAD5JHWTKUSOZCKFU7GC7OOTE4EIRDD43JBOEGI57JW6HMPQYWDZDSA2"
+display_decimals = 2
+name = "NativeTree"
+desc = "Custodia ética y viva del bosque nativo de Vodudahue en la Patagonia Chilena. 1.000 tokens NativeTree equivalen a 1 árbol maduro custodiado. Precio oficial: 0,40 EURC por token (400 EURC por árbol)."
+conditions = "Candado ético de preservación de 1 año sin especulación. Respaldo de biomasa NASA-GEDI (96 toneladas por hectárea en la Patagonia Norte en donde se ubica Vodudahue)."
+image = "https://www.preservenativetree.com/images/logo.jpg"
+is_asset_anchored = true
+anchor_asset_type = "other"
+anchor_asset = "Árboles Nativos Vivos de Vodudahue (404 ha)"
+status = "live"
