@@ -2,9 +2,7 @@
 # Host at: https://www.preservenativetree.com/.well-known/stellar.toml
 
 VERSION = "2.0.0"
-
 NETWORK_PASSPHRASE = "Public Global Stellar Network ; September 2015"
-
 ACCOUNTS = [
   "GAD5JHWTKUSOZCKFU7GC7OOTE4EIRDD43JBOEGI57JW6HMPQYWDZDSA2",
   "GBYB2EI35UYURWZDK6UGYR4SVUVN6T5DHDP3JHDQBKPKWWIARTIN3Z26"
